@@ -21,8 +21,8 @@ def load_data():
 
 @st.cache_resource
 def get_supabase_client():
-    url = os.getenv("SUPABASE_URL")
-    key = os.getenv("SUPABASE_KEY")
+    url = "https://utlwswlunavproawoqbk.supabase.co"
+    key = "sb_publishable_nFmZtW--nUoJM-UBLK2fTw_tPKS_Nzx"
 
     if not url or not key:
         return None
